@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47D18F8C93EAEFF3E77894A8 /* libPods-VKVickey_NCE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C68D92C5051C869CB476AE76 /* libPods-VKVickey_NCE.a */; };
+		B92092D61D588C2B00DE8235 /* VKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92092D51D588C2B00DE8235 /* VKTabBarController.m */; };
+		B92092D91D588C4800DE8235 /* VKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92092D81D588C4800DE8235 /* VKNavigationController.m */; };
+		B9406B821D534CFD009D8A0E /* SK_AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B9406B811D534CFD009D8A0E /* SK_AFNetworking.m */; };
+		B98B09511D6B15C900991620 /* UIColor+SKHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B09501D6B15C900991620 /* UIColor+SKHexColor.m */; };
+		B993261E1D5C489400DF4EB4 /* UINavigationBar+SKBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B993261C1D5C489400DF4EB4 /* UINavigationBar+SKBackground.m */; };
+		B99326231D5C48AB00DF4EB4 /* SKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99326201D5C48AB00DF4EB4 /* SKBaseViewController.m */; };
+		B99326241D5C48AB00DF4EB4 /* SKNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99326221D5C48AB00DF4EB4 /* SKNormalViewController.m */; };
+		B99611211D5202C200F442E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B99611201D5202C200F442E6 /* main.m */; };
+		B99611241D5202C200F442E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B99611231D5202C200F442E6 /* AppDelegate.m */; };
+		B99611271D5202C200F442E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99611261D5202C200F442E6 /* ViewController.m */; };
+		B996112A1D5202C200F442E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B99611281D5202C200F442E6 /* Main.storyboard */; };
+		B996112C1D5202C200F442E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B996112B1D5202C200F442E6 /* Assets.xcassets */; };
+		B996112F1D5202C200F442E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B996112D1D5202C200F442E6 /* LaunchScreen.storyboard */; };
+		B996113A1D5202C200F442E6 /* VKVickey_NCETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99611391D5202C200F442E6 /* VKVickey_NCETests.m */; };
+		B99611451D5202C200F442E6 /* VKVickey_NCEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99611441D5202C200F442E6 /* VKVickey_NCEUITests.m */; };
+		B9BBA10A1DA8DAD000747771 /* SKTabCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA0FE1DA8DAD000747771 /* SKTabCourseViewController.m */; };
+		B9BBA10B1DA8DAD000747771 /* SKTabDiscussViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA1011DA8DAD000747771 /* SKTabDiscussViewController.m */; };
+		B9BBA10C1DA8DAD000747771 /* SKTabHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA1041DA8DAD000747771 /* SKTabHomeViewController.m */; };
+		B9BBA10D1DA8DAD000747771 /* SKTabHomeViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA1061DA8DAD000747771 /* SKTabHomeViewLayout.m */; };
+		B9BBA10E1DA8DAD000747771 /* SKTabMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA1091DA8DAD000747771 /* SKTabMineViewController.m */; };
+		B9BBA11A1DA8DF5D00747771 /* SKAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA1191DA8DF5D00747771 /* SKAdScrollView.m */; };
+		B9BBA11D1DA8DF8A00747771 /* SKAdViewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BBA11C1DA8DF8A00747771 /* SKAdViewDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B99611361D5202C200F442E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B99611141D5202C100F442E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B996111B1D5202C100F442E6;
+			remoteInfo = VKVickey_NCE;
+		};
+		B99611411D5202C200F442E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B99611141D5202C100F442E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B996111B1D5202C100F442E6;
+			remoteInfo = VKVickey_NCE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6676816073BDB597230F8025 /* Pods-VKVickey_NCE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVickey_NCE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKVickey_NCE/Pods-VKVickey_NCE.debug.xcconfig"; sourceTree = "<group>"; };
+		B92092D41D588C2B00DE8235 /* VKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKTabBarController.h; sourceTree = "<group>"; };
+		B92092D51D588C2B00DE8235 /* VKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKTabBarController.m; sourceTree = "<group>"; };
+		B92092D71D588C4800DE8235 /* VKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKNavigationController.h; sourceTree = "<group>"; };
+		B92092D81D588C4800DE8235 /* VKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKNavigationController.m; sourceTree = "<group>"; };
+		B9406B801D534CFD009D8A0E /* SK_AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SK_AFNetworking.h; sourceTree = "<group>"; };
+		B9406B811D534CFD009D8A0E /* SK_AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SK_AFNetworking.m; sourceTree = "<group>"; };
+		B98B094F1D6B15C900991620 /* UIColor+SKHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SKHexColor.h"; sourceTree = "<group>"; };
+		B98B09501D6B15C900991620 /* UIColor+SKHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SKHexColor.m"; sourceTree = "<group>"; };
+		B993261B1D5C489400DF4EB4 /* UINavigationBar+SKBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SKBackground.h"; sourceTree = "<group>"; };
+		B993261C1D5C489400DF4EB4 /* UINavigationBar+SKBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SKBackground.m"; sourceTree = "<group>"; };
+		B993261F1D5C48AB00DF4EB4 /* SKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBaseViewController.h; sourceTree = "<group>"; };
+		B99326201D5C48AB00DF4EB4 /* SKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseViewController.m; sourceTree = "<group>"; };
+		B99326211D5C48AB00DF4EB4 /* SKNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNormalViewController.h; sourceTree = "<group>"; };
+		B99326221D5C48AB00DF4EB4 /* SKNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNormalViewController.m; sourceTree = "<group>"; };
+		B99326291D5C5AA000DF4EB4 /* SKDefined.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKDefined.h; sourceTree = "<group>"; };
+		B993262A1D5C5B3600DF4EB4 /* SKFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKFunction.h; sourceTree = "<group>"; };
+		B996111C1D5202C100F442E6 /* VKVickey_NCE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKVickey_NCE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99611201D5202C200F442E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B99611221D5202C200F442E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B99611231D5202C200F442E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B99611251D5202C200F442E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B99611261D5202C200F442E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B99611291D5202C200F442E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B996112B1D5202C200F442E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B996112E1D5202C200F442E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B99611301D5202C200F442E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99611351D5202C200F442E6 /* VKVickey_NCETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKVickey_NCETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99611391D5202C200F442E6 /* VKVickey_NCETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKVickey_NCETests.m; sourceTree = "<group>"; };
+		B996113B1D5202C200F442E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B99611401D5202C200F442E6 /* VKVickey_NCEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKVickey_NCEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99611441D5202C200F442E6 /* VKVickey_NCEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKVickey_NCEUITests.m; sourceTree = "<group>"; };
+		B99611461D5202C200F442E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9BBA0FD1DA8DAD000747771 /* SKTabCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTabCourseViewController.h; sourceTree = "<group>"; };
+		B9BBA0FE1DA8DAD000747771 /* SKTabCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTabCourseViewController.m; sourceTree = "<group>"; };
+		B9BBA1001DA8DAD000747771 /* SKTabDiscussViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTabDiscussViewController.h; sourceTree = "<group>"; };
+		B9BBA1011DA8DAD000747771 /* SKTabDiscussViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTabDiscussViewController.m; sourceTree = "<group>"; };
+		B9BBA1031DA8DAD000747771 /* SKTabHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTabHomeViewController.h; sourceTree = "<group>"; };
+		B9BBA1041DA8DAD000747771 /* SKTabHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTabHomeViewController.m; sourceTree = "<group>"; };
+		B9BBA1051DA8DAD000747771 /* SKTabHomeViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTabHomeViewLayout.h; sourceTree = "<group>"; };
+		B9BBA1061DA8DAD000747771 /* SKTabHomeViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTabHomeViewLayout.m; sourceTree = "<group>"; };
+		B9BBA1081DA8DAD000747771 /* SKTabMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTabMineViewController.h; sourceTree = "<group>"; };
+		B9BBA1091DA8DAD000747771 /* SKTabMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTabMineViewController.m; sourceTree = "<group>"; };
+		B9BBA1181DA8DF5D00747771 /* SKAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAdScrollView.h; sourceTree = "<group>"; };
+		B9BBA1191DA8DF5D00747771 /* SKAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAdScrollView.m; sourceTree = "<group>"; };
+		B9BBA11B1DA8DF8A00747771 /* SKAdViewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAdViewDataModel.h; sourceTree = "<group>"; };
+		B9BBA11C1DA8DF8A00747771 /* SKAdViewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAdViewDataModel.m; sourceTree = "<group>"; };
+		C68D92C5051C869CB476AE76 /* libPods-VKVickey_NCE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKVickey_NCE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B97BAEDA4BC155FAC777DA /* Pods-VKVickey_NCE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVickey_NCE.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKVickey_NCE/Pods-VKVickey_NCE.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B99611191D5202C100F442E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D18F8C93EAEFF3E77894A8 /* libPods-VKVickey_NCE.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99611321D5202C200F442E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B996113D1D5202C200F442E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ADAB20DA76C34C84EDDD0FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6676816073BDB597230F8025 /* Pods-VKVickey_NCE.debug.xcconfig */,
+				E6B97BAEDA4BC155FAC777DA /* Pods-VKVickey_NCE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9DD2F8C9AC9261E764B6826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68D92C5051C869CB476AE76 /* libPods-VKVickey_NCE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B901B8111D59BE4700C7C248 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B98B094F1D6B15C900991620 /* UIColor+SKHexColor.h */,
+				B98B09501D6B15C900991620 /* UIColor+SKHexColor.m */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
+		B92092CF1D588A9400DE8235 /* SKClass */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA0FC1DA8DAD000747771 /* TabCourse */,
+				B9BBA0FF1DA8DAD000747771 /* TabDiscuss */,
+				B9BBA1021DA8DAD000747771 /* TabHome */,
+				B9BBA1071DA8DAD000747771 /* TabMine */,
+			);
+			path = SKClass;
+			sourceTree = "<group>";
+		};
+		B92092D21D588AE500DE8235 /* SKUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B99326291D5C5AA000DF4EB4 /* SKDefined.h */,
+				B993262A1D5C5B3600DF4EB4 /* SKFunction.h */,
+				B901B8111D59BE4700C7C248 /* Colors */,
+				B96BFC681D59860F006659B2 /* NaviBarAlpha */,
+			);
+			path = SKUtil;
+			sourceTree = "<group>";
+		};
+		B92092D31D588B0500DE8235 /* SKBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				B92092D41D588C2B00DE8235 /* VKTabBarController.h */,
+				B92092D51D588C2B00DE8235 /* VKTabBarController.m */,
+				B92092D71D588C4800DE8235 /* VKNavigationController.h */,
+				B92092D81D588C4800DE8235 /* VKNavigationController.m */,
+				B993261F1D5C48AB00DF4EB4 /* SKBaseViewController.h */,
+				B99326201D5C48AB00DF4EB4 /* SKBaseViewController.m */,
+				B99326211D5C48AB00DF4EB4 /* SKNormalViewController.h */,
+				B99326221D5C48AB00DF4EB4 /* SKNormalViewController.m */,
+			);
+			path = SKBaseClass;
+			sourceTree = "<group>";
+		};
+		B9406B7E1D534BA7009D8A0E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B99611221D5202C200F442E6 /* AppDelegate.h */,
+				B99611231D5202C200F442E6 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B9406B7F1D534BF0009D8A0E /* SKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B9406B801D534CFD009D8A0E /* SK_AFNetworking.h */,
+				B9406B811D534CFD009D8A0E /* SK_AFNetworking.m */,
+			);
+			path = SKRequest;
+			sourceTree = "<group>";
+		};
+		B96BFC681D59860F006659B2 /* NaviBarAlpha */ = {
+			isa = PBXGroup;
+			children = (
+				B993261B1D5C489400DF4EB4 /* UINavigationBar+SKBackground.h */,
+				B993261C1D5C489400DF4EB4 /* UINavigationBar+SKBackground.m */,
+			);
+			name = NaviBarAlpha;
+			sourceTree = "<group>";
+		};
+		B99611131D5202C100F442E6 = {
+			isa = PBXGroup;
+			children = (
+				B996111E1D5202C100F442E6 /* VKVickey_NCE */,
+				B99611381D5202C200F442E6 /* VKVickey_NCETests */,
+				B99611431D5202C200F442E6 /* VKVickey_NCEUITests */,
+				B996111D1D5202C100F442E6 /* Products */,
+				9ADAB20DA76C34C84EDDD0FF /* Pods */,
+				A9DD2F8C9AC9261E764B6826 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B996111D1D5202C100F442E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B996111C1D5202C100F442E6 /* VKVickey_NCE.app */,
+				B99611351D5202C200F442E6 /* VKVickey_NCETests.xctest */,
+				B99611401D5202C200F442E6 /* VKVickey_NCEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B996111E1D5202C100F442E6 /* VKVickey_NCE */ = {
+			isa = PBXGroup;
+			children = (
+				B9406B7E1D534BA7009D8A0E /* AppDelegate */,
+				B9BBA1161DA8DEFE00747771 /* SKThird */,
+				B92092D21D588AE500DE8235 /* SKUtil */,
+				B9406B7F1D534BF0009D8A0E /* SKRequest */,
+				B92092D31D588B0500DE8235 /* SKBaseClass */,
+				B92092CF1D588A9400DE8235 /* SKClass */,
+				B99611251D5202C200F442E6 /* ViewController.h */,
+				B99611261D5202C200F442E6 /* ViewController.m */,
+				B99611281D5202C200F442E6 /* Main.storyboard */,
+				B996112B1D5202C200F442E6 /* Assets.xcassets */,
+				B996112D1D5202C200F442E6 /* LaunchScreen.storyboard */,
+				B99611301D5202C200F442E6 /* Info.plist */,
+				B996111F1D5202C200F442E6 /* Supporting Files */,
+			);
+			path = VKVickey_NCE;
+			sourceTree = "<group>";
+		};
+		B996111F1D5202C200F442E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99611201D5202C200F442E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99611381D5202C200F442E6 /* VKVickey_NCETests */ = {
+			isa = PBXGroup;
+			children = (
+				B99611391D5202C200F442E6 /* VKVickey_NCETests.m */,
+				B996113B1D5202C200F442E6 /* Info.plist */,
+			);
+			path = VKVickey_NCETests;
+			sourceTree = "<group>";
+		};
+		B99611431D5202C200F442E6 /* VKVickey_NCEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B99611441D5202C200F442E6 /* VKVickey_NCEUITests.m */,
+				B99611461D5202C200F442E6 /* Info.plist */,
+			);
+			path = VKVickey_NCEUITests;
+			sourceTree = "<group>";
+		};
+		B9BBA0FC1DA8DAD000747771 /* TabCourse */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA0FD1DA8DAD000747771 /* SKTabCourseViewController.h */,
+				B9BBA0FE1DA8DAD000747771 /* SKTabCourseViewController.m */,
+			);
+			path = TabCourse;
+			sourceTree = "<group>";
+		};
+		B9BBA0FF1DA8DAD000747771 /* TabDiscuss */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA1001DA8DAD000747771 /* SKTabDiscussViewController.h */,
+				B9BBA1011DA8DAD000747771 /* SKTabDiscussViewController.m */,
+			);
+			path = TabDiscuss;
+			sourceTree = "<group>";
+		};
+		B9BBA1021DA8DAD000747771 /* TabHome */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA1031DA8DAD000747771 /* SKTabHomeViewController.h */,
+				B9BBA1041DA8DAD000747771 /* SKTabHomeViewController.m */,
+				B9BBA1051DA8DAD000747771 /* SKTabHomeViewLayout.h */,
+				B9BBA1061DA8DAD000747771 /* SKTabHomeViewLayout.m */,
+			);
+			path = TabHome;
+			sourceTree = "<group>";
+		};
+		B9BBA1071DA8DAD000747771 /* TabMine */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA1081DA8DAD000747771 /* SKTabMineViewController.h */,
+				B9BBA1091DA8DAD000747771 /* SKTabMineViewController.m */,
+			);
+			path = TabMine;
+			sourceTree = "<group>";
+		};
+		B9BBA1161DA8DEFE00747771 /* SKThird */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA1171DA8DF1500747771 /* SKAdScrollView */,
+			);
+			path = SKThird;
+			sourceTree = "<group>";
+		};
+		B9BBA1171DA8DF1500747771 /* SKAdScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B9BBA1181DA8DF5D00747771 /* SKAdScrollView.h */,
+				B9BBA1191DA8DF5D00747771 /* SKAdScrollView.m */,
+				B9BBA11B1DA8DF8A00747771 /* SKAdViewDataModel.h */,
+				B9BBA11C1DA8DF8A00747771 /* SKAdViewDataModel.m */,
+			);
+			path = SKAdScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B996111B1D5202C100F442E6 /* VKVickey_NCE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99611491D5202C200F442E6 /* Build configuration list for PBXNativeTarget "VKVickey_NCE" */;
+			buildPhases = (
+				06FACAF03E239F37D8CBAA45 /* [CP] Check Pods Manifest.lock */,
+				B99611181D5202C100F442E6 /* Sources */,
+				B99611191D5202C100F442E6 /* Frameworks */,
+				B996111A1D5202C100F442E6 /* Resources */,
+				3318032AC780593AAF6FACD9 /* [CP] Embed Pods Frameworks */,
+				DE1A82D012624B6F592A418D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKVickey_NCE;
+			productName = VKVickey_NCE;
+			productReference = B996111C1D5202C100F442E6 /* VKVickey_NCE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B99611341D5202C200F442E6 /* VKVickey_NCETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B996114C1D5202C200F442E6 /* Build configuration list for PBXNativeTarget "VKVickey_NCETests" */;
+			buildPhases = (
+				B99611311D5202C200F442E6 /* Sources */,
+				B99611321D5202C200F442E6 /* Frameworks */,
+				B99611331D5202C200F442E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99611371D5202C200F442E6 /* PBXTargetDependency */,
+			);
+			name = VKVickey_NCETests;
+			productName = VKVickey_NCETests;
+			productReference = B99611351D5202C200F442E6 /* VKVickey_NCETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B996113F1D5202C200F442E6 /* VKVickey_NCEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B996114F1D5202C200F442E6 /* Build configuration list for PBXNativeTarget "VKVickey_NCEUITests" */;
+			buildPhases = (
+				B996113C1D5202C200F442E6 /* Sources */,
+				B996113D1D5202C200F442E6 /* Frameworks */,
+				B996113E1D5202C200F442E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B99611421D5202C200F442E6 /* PBXTargetDependency */,
+			);
+			name = VKVickey_NCEUITests;
+			productName = VKVickey_NCEUITests;
+			productReference = B99611401D5202C200F442E6 /* VKVickey_NCEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B99611141D5202C100F442E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Leou;
+				TargetAttributes = {
+					B996111B1D5202C100F442E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BTGX57JTFN;
+					};
+					B99611341D5202C200F442E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B996111B1D5202C100F442E6;
+					};
+					B996113F1D5202C200F442E6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B996111B1D5202C100F442E6;
+					};
+				};
+			};
+			buildConfigurationList = B99611171D5202C100F442E6 /* Build configuration list for PBXProject "VKVickey_NCE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = B99611131D5202C100F442E6;
+			productRefGroup = B996111D1D5202C100F442E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B996111B1D5202C100F442E6 /* VKVickey_NCE */,
+				B99611341D5202C200F442E6 /* VKVickey_NCETests */,
+				B996113F1D5202C200F442E6 /* VKVickey_NCEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B996111A1D5202C100F442E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B996112F1D5202C200F442E6 /* LaunchScreen.storyboard in Resources */,
+				B996112C1D5202C200F442E6 /* Assets.xcassets in Resources */,
+				B996112A1D5202C200F442E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99611331D5202C200F442E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B996113E1D5202C200F442E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06FACAF03E239F37D8CBAA45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3318032AC780593AAF6FACD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKVickey_NCE/Pods-VKVickey_NCE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE1A82D012624B6F592A418D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKVickey_NCE/Pods-VKVickey_NCE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B99611181D5202C100F442E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92092D91D588C4800DE8235 /* VKNavigationController.m in Sources */,
+				B99326241D5C48AB00DF4EB4 /* SKNormalViewController.m in Sources */,
+				B99326231D5C48AB00DF4EB4 /* SKBaseViewController.m in Sources */,
+				B98B09511D6B15C900991620 /* UIColor+SKHexColor.m in Sources */,
+				B9BBA10E1DA8DAD000747771 /* SKTabMineViewController.m in Sources */,
+				B9BBA10C1DA8DAD000747771 /* SKTabHomeViewController.m in Sources */,
+				B9406B821D534CFD009D8A0E /* SK_AFNetworking.m in Sources */,
+				B99611271D5202C200F442E6 /* ViewController.m in Sources */,
+				B9BBA11A1DA8DF5D00747771 /* SKAdScrollView.m in Sources */,
+				B92092D61D588C2B00DE8235 /* VKTabBarController.m in Sources */,
+				B993261E1D5C489400DF4EB4 /* UINavigationBar+SKBackground.m in Sources */,
+				B9BBA10D1DA8DAD000747771 /* SKTabHomeViewLayout.m in Sources */,
+				B9BBA11D1DA8DF8A00747771 /* SKAdViewDataModel.m in Sources */,
+				B99611241D5202C200F442E6 /* AppDelegate.m in Sources */,
+				B9BBA10B1DA8DAD000747771 /* SKTabDiscussViewController.m in Sources */,
+				B9BBA10A1DA8DAD000747771 /* SKTabCourseViewController.m in Sources */,
+				B99611211D5202C200F442E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99611311D5202C200F442E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B996113A1D5202C200F442E6 /* VKVickey_NCETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B996113C1D5202C200F442E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99611451D5202C200F442E6 /* VKVickey_NCEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B99611371D5202C200F442E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B996111B1D5202C100F442E6 /* VKVickey_NCE */;
+			targetProxy = B99611361D5202C200F442E6 /* PBXContainerItemProxy */;
+		};
+		B99611421D5202C200F442E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B996111B1D5202C100F442E6 /* VKVickey_NCE */;
+			targetProxy = B99611411D5202C200F442E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B99611281D5202C200F442E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B99611291D5202C200F442E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B996112D1D5202C200F442E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B996112E1D5202C200F442E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B99611471D5202C200F442E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B99611481D5202C200F442E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B996114A1D5202C200F442E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6676816073BDB597230F8025 /* Pods-VKVickey_NCE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BTGX57JTFN;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = VKVickey_NCE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UISKER.VKVickey-NCE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B996114B1D5202C200F442E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B97BAEDA4BC155FAC777DA /* Pods-VKVickey_NCE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = BTGX57JTFN;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = VKVickey_NCE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UISKER.VKVickey-NCE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B996114D1D5202C200F442E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKVickey_NCETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UISKER.VKVickey-NCETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKVickey_NCE.app/VKVickey_NCE";
+			};
+			name = Debug;
+		};
+		B996114E1D5202C200F442E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKVickey_NCETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UISKER.VKVickey-NCETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKVickey_NCE.app/VKVickey_NCE";
+			};
+			name = Release;
+		};
+		B99611501D5202C200F442E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VKVickey_NCEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UISKER.VKVickey-NCEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VKVickey_NCE;
+			};
+			name = Debug;
+		};
+		B99611511D5202C200F442E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VKVickey_NCEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UISKER.VKVickey-NCEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VKVickey_NCE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B99611171D5202C100F442E6 /* Build configuration list for PBXProject "VKVickey_NCE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99611471D5202C200F442E6 /* Debug */,
+				B99611481D5202C200F442E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99611491D5202C200F442E6 /* Build configuration list for PBXNativeTarget "VKVickey_NCE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B996114A1D5202C200F442E6 /* Debug */,
+				B996114B1D5202C200F442E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B996114C1D5202C200F442E6 /* Build configuration list for PBXNativeTarget "VKVickey_NCETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B996114D1D5202C200F442E6 /* Debug */,
+				B996114E1D5202C200F442E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B996114F1D5202C200F442E6 /* Build configuration list for PBXNativeTarget "VKVickey_NCEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B99611501D5202C200F442E6 /* Debug */,
+				B99611511D5202C200F442E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B99611141D5202C100F442E6 /* Project object */;
+}
